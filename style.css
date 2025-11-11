@@ -1,0 +1,91 @@
+body {
+  background-color: #01344b;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #f5f5f5;
+}
+.outils {
+  background-color: #1c1c1e;
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  background: #2c2c2e;
+  color: #f5f5f5;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #ff9f0a;
+  color: #1c1c1e;
+  transform: translateY(-2px);
+}
+
+
+  
+
+.zoneDessin {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.toolbar-side {
+  background-color: #1D546C;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.color-picker input[type="color"] {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 180%;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+}
+
+
+#sizePicker {
+  writing-mode: bt-lr;
+  appearance: slider-horizontal;
+  height: 120px;
+  cursor: pointer;
+}
+
+canvas {
+  background-color: #18181b;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+  cursor: crosshair;
+}
+
+footer {
+  margin-top: 20px;
+  color: #888;
+  font-size:15px;
+}
